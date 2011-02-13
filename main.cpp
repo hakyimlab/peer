@@ -77,16 +77,19 @@ void play_matrix(){
 int main (int argc, char * const argv[]) {
 	//play_matrix();
 	//1. simulate small dataset
-	PMatrix Y = simulate_expression(100,20,5,0.01).expr;
-	
-	PMatrix Yvar = 0.1*PMatrix::Ones(10,100);
+	int Ni = 1000;
+	int Ng = 25000;
+	sSimulation sim = simulate_expression(Ni,Ng,5,1.);
+	PMatrix Y = sim.expr;	
+	setVerbose(3);
 	//2. create object
 	//test with nonexisting variance:
-	Yvar = PMatrix();
-	cVBFA vb(Y,Yvar, PMatrix(), 8);
+	PMatrix Yvar = PMatrix();
+	cVBFA vb(Y, Yvar, sim.X.block(0,0,Ni,1), 30);
+//	cVBFA vb(Y,Yvar, PMatrix(), 7);
 	vb.setAdd_mean(false);
-	vb.setNmax_iterations(50);
-	vb.update();
-	cout << vb.Alpha.E1 << endl << vb.X.E1.col(0);
+	vb.setNmax_iterations(1);
+	vb.init_net();
+	cout << vb.Alpha.E1 << endl << endl << vb.getNc() << endl << vb.getNk() << endl; // << vb.X.E1.col(0) - sim.X.block(0,0,100,1);
 	
 }
