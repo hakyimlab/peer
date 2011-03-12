@@ -92,18 +92,10 @@ void cWNode::update(cBayesNet &net){
 		E2S += E2;
 		Xprec += n.Eps.E1(i,0)*E2;
 	}
-<<<<<<< HEAD:vbfa.cpp
 	// store values needed to calculate covariance for each p
 	E_last = n.Eps.E1;
 	XE2S_last = n.X.E2S;
 	A_last = n.Alpha.E1;
-=======
-	
-	// store values needed to calculate covariance for each p
-	E_last = n.Eps.E1;
-	XE2S_last = n.X.E2S;
-	A_last = n.Alpha.E1;	
->>>>>>> 8be0747baf21dfb2b3e1a842ae92958b343e1a50:src/vbfa.cpp
 }
 
 

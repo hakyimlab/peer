@@ -73,27 +73,38 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 315856243;
-			PBXWorkspaceStateSaveDate = 315856243;
+			PBXPerProjectTemplateStateSaveDate = 321624985;
+			PBXWorkspaceStateSaveDate = 321624985;
 		};
 		perUserProjectItems = {
-			5FED85FE12D3961300BAC3A8 /* PBXTextBookmark */ = 5FED85FE12D3961300BAC3A8 /* PBXTextBookmark */;
-			5FED85FF12D3961300BAC3A8 /* PBXTextBookmark */ = 5FED85FF12D3961300BAC3A8 /* PBXTextBookmark */;
-			5FED863212D3971A00BAC3A8 /* PBXTextBookmark */ = 5FED863212D3971A00BAC3A8 /* PBXTextBookmark */;
-			5FED863312D3971A00BAC3A8 /* PBXTextBookmark */ = 5FED863312D3971A00BAC3A8 /* PBXTextBookmark */;
-			5FED866612D3995400BAC3A8 /* PBXTextBookmark */ = 5FED866612D3995400BAC3A8 /* PBXTextBookmark */;
-			5FED866712D3995400BAC3A8 /* PBXTextBookmark */ = 5FED866712D3995400BAC3A8 /* PBXTextBookmark */;
-			5FED866912D3995400BAC3A8 /* PBXTextBookmark */ = 5FED866912D3995400BAC3A8 /* PBXTextBookmark */;
-			5FED867E12D39A2300BAC3A8 /* PBXTextBookmark */ = 5FED867E12D39A2300BAC3A8 /* PBXTextBookmark */;
-			5FED867F12D39A2300BAC3A8 /* PBXTextBookmark */ = 5FED867F12D39A2300BAC3A8 /* PBXTextBookmark */;
-			5FED868012D39A2300BAC3A8 /* PBXTextBookmark */ = 5FED868012D39A2300BAC3A8 /* PBXTextBookmark */;
-			5FED868112D39A2300BAC3A8 /* PBXTextBookmark */ = 5FED868112D39A2300BAC3A8 /* PBXTextBookmark */;
-			5FED868D12D39A7500BAC3A8 /* XCBuildMessageTextBookmark */ = 5FED868D12D39A7500BAC3A8 /* XCBuildMessageTextBookmark */;
-			5FED86B612D3C8BE00BAC3A8 /* PBXTextBookmark */ = 5FED86B612D3C8BE00BAC3A8 /* PBXTextBookmark */;
+			5F184C4F132B9BA90098BF50 /* PBXTextBookmark */ = 5F184C4F132B9BA90098BF50 /* PBXTextBookmark */;
+			5FED85FE12D3961300BAC3A8 = 5FED85FE12D3961300BAC3A8 /* PBXTextBookmark */;
+			5FED85FF12D3961300BAC3A8 = 5FED85FF12D3961300BAC3A8 /* PBXTextBookmark */;
+			5FED863212D3971A00BAC3A8 = 5FED863212D3971A00BAC3A8 /* PBXTextBookmark */;
+			5FED863312D3971A00BAC3A8 = 5FED863312D3971A00BAC3A8 /* PBXTextBookmark */;
+			5FED866612D3995400BAC3A8 = 5FED866612D3995400BAC3A8 /* PBXTextBookmark */;
+			5FED866712D3995400BAC3A8 = 5FED866712D3995400BAC3A8 /* PBXTextBookmark */;
+			5FED866912D3995400BAC3A8 = 5FED866912D3995400BAC3A8 /* PBXTextBookmark */;
+			5FED867E12D39A2300BAC3A8 = 5FED867E12D39A2300BAC3A8 /* PBXTextBookmark */;
+			5FED867F12D39A2300BAC3A8 = 5FED867F12D39A2300BAC3A8 /* PBXTextBookmark */;
+			5FED868012D39A2300BAC3A8 = 5FED868012D39A2300BAC3A8 /* PBXTextBookmark */;
+			5FED868112D39A2300BAC3A8 = 5FED868112D39A2300BAC3A8 /* PBXTextBookmark */;
+			5FED868D12D39A7500BAC3A8 = 5FED868D12D39A7500BAC3A8 /* PBXTextBookmark */;
+			5FED86B612D3C8BE00BAC3A8 = 5FED86B612D3C8BE00BAC3A8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 5FF739B3125E75B000B39FCC /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	5F184C4F132B9BA90098BF50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5FED860212D3961F00BAC3A8 /* array_helper.h */;
+		name = "array_helper.h: 43";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
 	};
 	5FE0C6711295BF3E001431C7 /* tests */ = {
 		activeExec = 0;
@@ -188,7 +199,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1076, 546}}";
 			sepNavSelRange = "{1022, 0}";
-			sepNavVisRange = "{0, 812}";
+			sepNavVisRange = "{0, 896}";
 		};
 	};
 	5FED860E12D3962C00BAC3A8 /* ossolog.h */ = {
@@ -253,14 +264,10 @@
 	};
 	5FED866F12D3995C00BAC3A8 /* NSObjCRuntime.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = NSObjCRuntime.h;
 		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1076, 2210}}";
-			sepNavSelRange = "{3897, 0}";
-			sepNavVisRange = "{3411, 1110}";
-		};
 	};
 	5FED867E12D39A2300BAC3A8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -302,11 +309,10 @@
 		vrLen = 1110;
 		vrLoc = 3411;
 	};
-	5FED868D12D39A7500BAC3A8 /* XCBuildMessageTextBookmark */ = {
+	5FED868D12D39A7500BAC3A8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "Ap: No such file or directory";
 		fRef = 5FED860212D3961F00BAC3A8 /* array_helper.h */;
-		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
 		rLoc = 13;
 		rType = 1;
