@@ -4,7 +4,7 @@ project(PEER)
 #build options
 #bindings
 #PYTHON on by default
-option(BUILD_PYTHON_PACKAGE "Enable Python bindings" ON)
+#option(BUILD_PYTHON_PACKAGE "Enable Python bindings" ON)
 #R optional
 option(BUILD_R_PACKAGE "Enable R bindings" OFF)
 
@@ -45,7 +45,7 @@ endif (BUILD_UNIVERSAL)
 
 
 ##R build options###
-#set(R_EXECUTABLE "")
+#set(R_EXECUTABLE "/usr/local/bin/R")
 #R executable 
 #set(R_HOME "")
 #R home directory
