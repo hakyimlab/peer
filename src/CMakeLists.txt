@@ -4,7 +4,7 @@ include_directories(../External/csv_parser/include) #remove this once deemed saf
 include_directories(../External/csv_parser/include/csv_parser)
 include_directories(../External/tclap)
 
-#OPTION(BUILD_PEERTOOL "Build the peertool command-line utility" ON)
+OPTION(BUILD_PEERTOOL "Build the peertool command-line utility" ON)
 
 if(DEBUG_PEER)
   ADD_DEFINITIONS(-DOSSOLOG_COMPILE -DOSSOLOG_STDERR -DOSSOLOG_DEBUG)
