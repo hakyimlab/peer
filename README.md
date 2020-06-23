@@ -14,6 +14,7 @@ On Washington: `/vol/bmd/meliao/software/other_software/peer/build/src/peertool`
 1. Make a build directory and go to it `mkdir build ; cd build`
 1. Run cmake `cmake ./..`
     1. This has two dependencies, cmake and swig. These can be installed with your package manager (on MacOS, I use `brew`, and on Ubuntu I use `apt`).
+    1. On CRI, swig can be made available with `module load gcc/6.2.0 swig/3.0.12`
 1. Run `make`. This should generate a lot of warnings, but hopefully no errors. 
 1. Run `make install`. This should add the `peertool` executable to `/usr/local/bin`
 1. Check whether `peertool` was installed: `which peertool`
